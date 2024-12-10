@@ -10,12 +10,14 @@ logistic_fun <- function(t) {
   
 }
 
+logistic_fun(0)
+
 N0 <- 879 
   
-r <-  0.009902
+r <-  1.004e-02
 #gradient of model 1
   
-K <- 5.903e+10 
+K <- 6.000e+10 
 #intercept of model 2
 
 ggplot(aes(t,N), data = growth_data) +
