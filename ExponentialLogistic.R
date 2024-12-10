@@ -12,7 +12,7 @@ expo_fun(4980)
 logistic_fun(4980)
 #6e+10
 
-ggplot(aes(t,N), data = growth_data) +
+expo_log_plot <- ggplot(aes(t,N), data = growth_data) +
   geom_function(fun=logistic_fun, aes(colour="Logistic")) +
   geom_function(fun=expo_fun, aes(colour="Exponential")) +
   scale_y_continuous(trans="log10") +
@@ -21,3 +21,4 @@ ggplot(aes(t,N), data = growth_data) +
                    values=c("Exponential"="blue", "Logistic"="red")) +
   ggtitle("Comparison of Exponential and Logistic Population Growth")
 
+expo_log_plot

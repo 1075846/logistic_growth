@@ -12,7 +12,7 @@ logistic_fun <- function(t) {
 
 logistic_fun(0)
 
-N0 <- 879 
+N0 <- 879
   
 r <-  1.004e-02
 #gradient of model 1
