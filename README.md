@@ -5,6 +5,7 @@ Results:
   - N0 = 879
   - r = 1.004e-02 (gradient of model 1)
   - K = 6.000e+10 (intercept of model 2)
+
 Data obtained from experiment.csv
   
 2.  (10 points) Use your estimates of N0 and r to calculate the population size at t = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth
