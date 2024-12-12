@@ -23,3 +23,4 @@ expo_log_plot <- ggplot(aes(t,N), data = growth_data) +
   ylab("Log10(N)")
 
 expo_log_plot
+
