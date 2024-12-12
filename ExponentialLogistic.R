@@ -19,6 +19,8 @@ expo_log_plot <- ggplot(aes(t,N), data = growth_data) +
   scale_color_manual(name="Model",
                    breaks=c("Exponential", "Logistic"),
                    values=c("Exponential"="blue", "Logistic"="red")) +
-  ggtitle("Comparison of Exponential and Logistic Population Growth")
+  ggtitle("Comparison of Exponential and Logistic Population Growth") +
+  ylab("Log10(N)")
 
 expo_log_plot
+
