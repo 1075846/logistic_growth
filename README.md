@@ -13,6 +13,7 @@ Data obtained from experiment.csv
 Population size at t = 4980 min:
 - Exponential: 4.553712e+24 (N0*exp(r*t))
 - Logistic: 6e+10
+
 Exponential population size at t = 4980 is much larger than the logistic population size. When a population grows exponentially, it is not limited by carrying capacity and the population grows at an increasing rate over time. Under a logistic model of population growth, the growth rate of the population decreases as N approaches the carrying capacity K 6e+10. 
    
 3. 
